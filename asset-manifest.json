@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/home/static/css/main.fe927caf.css",
-    "main.js": "/home/static/js/main.4b35402f.js",
+    "main.js": "/home/static/js/main.c60c425d.js",
     "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
     "static/media/profile_pic.jpg": "/home/static/media/profile_pic.240da27c2b6963b1b690.jpg",
     "static/media/resume.pdf": "/home/static/media/resume.75baf9eb0b1caf444627.pdf",
     "static/media/aiisc_logo.png": "/home/static/media/aiisc_logo.30c9171f1f1f3d906f62.png",
     "index.html": "/home/index.html",
     "main.fe927caf.css.map": "/home/static/css/main.fe927caf.css.map",
-    "main.4b35402f.js.map": "/home/static/js/main.4b35402f.js.map",
+    "main.c60c425d.js.map": "/home/static/js/main.c60c425d.js.map",
     "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.4b35402f.js"
+    "static/js/main.c60c425d.js"
   ]
 }
