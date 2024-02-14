@@ -214,4 +214,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences,publications };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, publications };
