@@ -3,7 +3,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills, experiences, publications, achievements, certifications } from "../editable-stuff/config.js";
+import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
@@ -49,24 +49,6 @@ const Navigation = React.forwardRef((props, ref) => {
               <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
             </NavLink>
           } */}
-          {about.show && (
-            <NavLink
-              className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              About
-            </NavLink>
-          )}
-
-            {experiences.show && (
-            <NavLink
-              className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#experiences"}
-            >
-              Professional Experience
-            </NavLink>
-          )}
-
           {repos.show && (
 
             <NavLink
@@ -75,36 +57,6 @@ const Navigation = React.forwardRef((props, ref) => {
               Projects
             </NavLink>
           )}
-
-            {publications.show && (
-            <NavLink
-              className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#publications"}
-            >
-              Publications
-            </NavLink>
-          )}
-
-          {certifications.show && (
-            <NavLink
-              className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#certifications"}
-            >
-              Certifications
-            </NavLink>
-          )}
-
-
-          {achievements.show && (
-            <NavLink
-              className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#achievements"}
-            >
-              Achievements
-            </NavLink>
-          )}
-
-          
           <NavLink
             className="nav-item lead"
             href={about.resume}
@@ -113,7 +65,14 @@ const Navigation = React.forwardRef((props, ref) => {
           >
             Resume
           </NavLink>
-          
+          {about.show && (
+            <NavLink
+              className="nav-item lead"
+              href={process.env.PUBLIC_URL + "/#aboutme"}
+            >
+              About
+            </NavLink>
+          )}
           {skills.show && (
             <NavLink
               className="nav-item lead"
