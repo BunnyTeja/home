@@ -138,6 +138,13 @@ const certifications = {
         "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera"
          ],
     },
+
+    {
+      title: "Salesforce Certified Platform Developer I",
+      details: [
+        "The Salesforce Certified Platform Developer I credential is intended for individuals who have knowledge, skills, and experience building custom applications on the Lightning Platform"
+         ],
+    },
   ]
 };
 

@@ -12,7 +12,7 @@ const Achievement = ({ achievements }) => {
           </h2>
           {achievements.data.map((achievement, index) => (
             <div key={index} className="pb-5">
-              <h3 style={{ fontWeight: 'bold' }}>{achievement.title}</h3>
+              <h3>{achievement.title}</h3>
               <p>{achievement.details[0]}</p>
             </div>
           ))}
