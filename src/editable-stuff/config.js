@@ -115,6 +115,21 @@ const publications = {
   ]
 };
 
+const achievements = {
+  show: true,
+  heading: "Achievements",
+  data: [
+    {
+      title: "IAAI 'Innovative Application' Award",
+      details: [
+        "IAAI ‘Innovative Application’ Award for developing and deploying an application featured in an accepted paper at the Thirty-Sixth Annual Conference on Innovative Applications of Artificial Intelligence (IAAI/AAAI-24).",
+        "Deployed Application - http://casy.cse.sc.edu/teaming/",
+      ],
+    },
+  ]
+};
+
+
 
 
 // Leadership SECTION
@@ -214,4 +229,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, publications };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, publications, achievements };

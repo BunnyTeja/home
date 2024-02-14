@@ -9,7 +9,8 @@ import {
   publications,
   skills,
   getInTouch,
-  experiences
+  experiences,
+  achievements
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -24,6 +25,7 @@ import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
 import Publication from "./components/home/Publication.jsx";
+import Achievement from "./components/home/Achievement.jsx";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -57,6 +59,11 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
+      {
+        achievements.show && (
+          <Achievement achievements={achievements}/>
+        )
+      }
       {
         publications.show && (
           <Publication publications={publications}/>
