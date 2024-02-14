@@ -84,6 +84,34 @@ const repos = {
   ],
 };
 
+const publications = {
+  show: true,
+  heading: "Publications",
+  data: [
+    {
+      title: "Promoting Research Collaboration with Open Data Driven Team Recommendation in Response to Call for Proposals",
+      authors: "Siva Likitha Valluru, Biplav Srivastava, Sai Teja Paladi, Siwen Yan, Sriraam Natarajan",
+      details: "Deployed Application",
+    },
+    {
+      title: "KITE - An Unsupervised, Effective and Inclusive Approach for Textual Content Exploration",
+      authors: "Aniket Gupta, Biplav Srivastava, Karan Aggarwal, Sai Teja Paladi",
+      details: "Sep 2022 [Text, Content Insights]",
+    },
+    {
+      title: "ULTRA: A Data-driven Approach for Recommending Team Formation in Response to Proposal Calls",
+      authors: "Biplav Srivastava, Tarmo Koppel, Sai Teja Palladi, Siva Likitha Valluru, Rohit Sharma, Owen Bond",
+      details: "ICDM Workshop on AI for Nudging and Personalization (WAIN), 2022. [Team Recommendation]",
+    },
+    {
+      title: "Data-Based Insights for the Masses: Scaling Natural Language Querying to Middleware Data",
+      authors: "K. Lakkaraju, V. Palaiya, S.T. Paladi, C. Appajigowda, B. Srivastava, L. Johri",
+      details: "DASFAA 2022. Lecture Notes in Computer Science, vol 13247. Springer, Cham. https://doi.org/10.1007/978-3-031-00129-149",
+    },
+  ]
+};
+
+
 
 // Leadership SECTION
 const leadership = {
@@ -182,4 +210,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences,publications };
