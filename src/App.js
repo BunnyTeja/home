@@ -26,6 +26,7 @@ import Leadership from "./components/home/Leadership.jsx";
 import Experience from "./components/home/Experience";
 import Publication from "./components/home/Publication.jsx";
 import Achievement from "./components/home/Achievement.jsx";
+import Certification from "./components/home/Certification.jsx";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -67,6 +68,11 @@ const Home = React.forwardRef((props, ref) => {
       {
         publications.show && (
           <Publication publications={publications}/>
+        )
+      }
+      {
+        certifications.show && (
+          <Certification certifications={certifications}/>
         )
       }
       {leadership.show && (

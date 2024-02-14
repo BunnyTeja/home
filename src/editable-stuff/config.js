@@ -122,14 +122,24 @@ const achievements = {
     {
       title: "IAAI 'Innovative Application' Award",
       details: [
-        "IAAI ‘Innovative Application’ Award for developing and deploying an application featured in an accepted paper at the Thirty-Sixth Annual Conference on Innovative Applications of Artificial Intelligence (IAAI/AAAI-24).",
-        "Deployed Application - http://casy.cse.sc.edu/teaming/",
+        "IAAI ‘Innovative Application’ Award for developing and deploying an application featured in an accepted paper at the Thirty-Sixth Annual Conference on Innovative Applications of Artificial Intelligence (IAAI/AAAI-24). Deployed Application - http://casy.cse.sc.edu/teaming/",
       ],
     },
   ]
 };
 
-
+const certifications = {
+  show: true,
+  heading: "Certifications",
+  data: [
+    {
+      title: "Supervised Machine Learning: Regression and Classification",
+      details: [
+        "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera"
+         ],
+    },
+  ]
+};
 
 
 // Leadership SECTION
@@ -229,4 +239,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, publications, achievements };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, publications, achievements, certifications };
