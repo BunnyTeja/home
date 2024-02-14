@@ -10,7 +10,8 @@ import {
   skills,
   getInTouch,
   experiences,
-  achievements
+  achievements,
+  certifications
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
