@@ -1,5 +1,7 @@
 import UltraPngImage from "../editable-stuff/ultra-img.png";
 import mapperPngImage from "../editable-stuff/mapper-img.png";
+import ApiPngImage from "../editable-stuff/api-img.png";
+import dataPngImage from "../editable-stuff/data-img.png";
 
 
 // Navigation Bar SECTION
@@ -64,12 +66,20 @@ const repos = {
   reposLength: [],
   specificRepos: [
     {
-      name: "Ultra-Matching",
+      name: "Ultra-Teaming-Website-and-Survey",
       image: UltraPngImage,
     },
     {
-      name: "TextToClassificationMapper",
+      name: "Text-To-Classification-Mapper",
       image: mapperPngImage,
+    },
+    {
+      name: "Explore-Ultra-Data",
+      image: dataPngImage,
+    },
+    {
+      name: "Ultra-Data-Swagger-API-Documentation",
+      image: ApiPngImage,
     },
   ],
 };
