@@ -93,9 +93,9 @@ const publications = {
   heading: "Publications",
   data: [
     {
-      title: "Promoting Research Collaboration with Open Data Driven Team Recommendation in Response to Call for Proposals",
+      title: "(Deployed Application) Promoting Research Collaboration with Open Data Driven Team Recommendation in Response to Call for Proposals - http://casy.cse.sc.edu/teaming/",
       authors: "Siva Likitha Valluru, Biplav Srivastava, Sai Teja Paladi, Siwen Yan, Sriraam Natarajan",
-      details: "Deployed Application",
+      details: "Accepted paper at the Thirty-Sixth Annual Conference on Innovative Applications of Artificial Intelligence (IAAI/AAAI-24)",
     },
     {
       title: "KITE - An Unsupervised, Effective and Inclusive Approach for Textual Content Exploration",
