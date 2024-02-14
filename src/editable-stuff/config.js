@@ -25,6 +25,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/sai-teja-paladi-52a062140/",
     },
+    {
+      image: "fa-googlescholor",
+      url: "https://scholar.google.com/citations?hl=en&user=t14NnoQAAAAJ",
+    },
   ],
 };
 
