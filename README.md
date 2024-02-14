@@ -1,3 +1,15 @@
+## Steps to add changes and deploy 🔧
+
+1. Open portfolio folder in vs code
+2. After making changes to the code run these commands in terminal to add code to github.
+    - git add .
+    - git commit -m "write your message"
+    - git push -u origin main 
+3. Deploy - npm run deploy 
+
+
+
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
