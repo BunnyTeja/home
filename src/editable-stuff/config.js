@@ -1,3 +1,7 @@
+import UltraPngImage from "../editable-stuff/ultra-img.png";
+import mapperPngImage from "../editable-stuff/mapper-img.png";
+
+
 // Navigation Bar SECTION
 const navBar = {
   show: true,
@@ -51,13 +55,25 @@ const about = {
 //      i.e: reposLength: 0,
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
+// PROJECTS
+
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "BunnyTeja", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "leeoniisrael",
+  reposLength: [],
+  specificRepos: [
+    {
+      name: "Ultra-Matching",
+      image: UltraPngImage,
+    },
+    {
+      name: "TextToClassificationMapper",
+      image: mapperPngImage,
+    },
+  ],
 };
+
 
 // Leadership SECTION
 const leadership = {
