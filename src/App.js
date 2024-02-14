@@ -6,6 +6,7 @@ import {
   about,
   repos,
   leadership,
+  publications,
   skills,
   getInTouch,
   experiences
@@ -22,6 +23,7 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
+import Publication from "./components/home/Publication.jsx";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -45,6 +47,11 @@ const Home = React.forwardRef((props, ref) => {
       {
         experiences.show && (
           <Experience experiences={experiences}/>
+        )
+      }
+      {
+        publications.show && (
+          <Publication publications={publications}/>
         )
       }
       {repos.show && (
