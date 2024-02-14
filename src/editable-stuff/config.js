@@ -96,7 +96,6 @@ const skills = {
     { name: "Apex", value: 65 },
     { name: "JavaScript", value: 65 },
     { name: "HTML5/CSS3", value: 70 },
-    { name: "React.js", value: 65 },
     { name: "Django", value: 70 },
     { name: "Flask", value: 60 },
   ],
