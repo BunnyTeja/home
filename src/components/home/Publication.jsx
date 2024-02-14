@@ -8,22 +8,20 @@ import {
 
 const Publication = ({ publications }) => {
   return (
-    <section className="section">
+    <Jumbotron fluid className="bg-light m-0">
       <Container>
-        <Jumbotron className="bg-white">
-          <h2 className="display-4 mb-5 text-center">
-            {publications.heading}
-          </h2>
-          <Row>
-            {
-              publications.data.map((data, index) => {
-                return <PublicationCard key={index} data={data} />
-              })
-            }
-          </Row>
-        </Jumbotron>
+        <h2 className="display-4 mb-5 text-center">
+          {publications.heading}
+        </h2>
+        <Row>
+          {
+            publications.data.map((data, index) => {
+              return <PublicationCard key={index} data={data} />
+            })
+          }
+        </Row>
       </Container>
-    </section>
+    </Jumbotron>
   );
 }
 
