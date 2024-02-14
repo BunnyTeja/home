@@ -12,7 +12,7 @@ const Certification = ({ certifications }) => {
           </h2>
           {certifications.data.map((certification, index) => (
             <div key={index} className="pb-5">
-              <h2>{certification.title}</h2>
+              <h4>{certification.title}</h4>
               <p>{certification.details[0]}</p>
             </div>
           ))}
