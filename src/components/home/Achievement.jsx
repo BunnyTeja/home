@@ -12,10 +12,10 @@ const Achievement = ({ achievements }) => {
           </h2>
           {achievements.data.map((achievement, index) => (
             <div key={index} className="pb-5">
-              <h3 className="text-left">{achievement.title}</h3>
               <ul>
-                <li>{achievement.details[0]}</li>
+                <li>{achievement.title}</li>
               </ul>
+              <p>{achievement.details[0]}</p>
             </div>
           ))}
         </Jumbotron>
