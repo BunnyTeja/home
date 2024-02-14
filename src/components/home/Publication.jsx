@@ -1,23 +1,28 @@
 import React from 'react';
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
+import PublicationCard from "./PublicationCard";
+import { Jumbotron } from './migration';
+import {
+  Container,
+  Row,
+} from "react-bootstrap";
 
-const PublicationCard = ({ data }) => {
+const Publication = ({ publications }) => {
   return (
-    <Col md={6}>
-      <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
-        <Card.Body>
-          <Card.Title as="h5">{data.title}</Card.Title>
-          <Card.Text>
-            <strong>Authors:</strong> {data.authors}
-          </Card.Text>
-          <Card.Text>
-            <strong>Details:</strong> {data.details}
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
+    <Jumbotron fluid className="bg-light m-0">
+      <Container>
+        <h2 className="display-4 mb-5 text-center">
+          {publications.heading}
+        </h2>
+        <Row>
+          {
+            publications.data.map((data, index) => {
+              return <PublicationCard key={index} data={data} />
+            })
+          }
+        </Row>
+      </Container>
+    </Jumbotron>
   );
 }
 
-export default PublicationCard;
+export default Publication;
