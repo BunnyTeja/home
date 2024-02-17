@@ -52,7 +52,7 @@ const about = {
   imageLink: require("../editable-stuff/profile_pic.jpg"),
   imageSize: 375,
   message:
-    "I'm Sai Teja Palad, a 2023 graduate from the University of South Carolina with a master's degree in Computer and Information Sciences. Passionate about application development, machine learning, and AI, I actively pursue my interests through projects, coursework, and problem-solving on platforms like LeetCode. My goal is to leverage my skills in software engineering to develop innovative solutions that make a positive impact. I'm eager to collaborate with like-minded professionals and stay updated on emerging technologies.",
+    "I'm Sai Teja Paladi, 2023 graduate from the University of South Carolina with a master's degree in Computer and Information Sciences. Passionate about application development, machine learning, and AI, I actively pursue my interests through projects, coursework, and problem-solving on platforms like LeetCode. My goal is to leverage my skills in software engineering to develop innovative solutions that make a positive impact. I'm eager to collaborate with like-minded professionals and stay updated on emerging technologies.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
