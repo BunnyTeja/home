@@ -5,7 +5,7 @@ import CertificationCard from "./CertificationCard";
 
 const Certification = ({ certifications }) => {
   return (
-    <section className="section">
+    <section style={{ marginBottom: '50px' }} className="certification-section section-spacing">
       <Container>
         <Jumbotron className="bg-white">
           <h2 className="display-4 mb-5 text-center">
