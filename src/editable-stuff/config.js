@@ -134,17 +134,16 @@ const certifications = {
   data: [
     {
       title: "Supervised Machine Learning: Regression and Classification",
-      details: [
-        "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera"
-         ],
+      details: "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera.",
+      image: "sml.PNG"
     },
 
     {
-      title: "Salesforce Certified Platform Developer I",
-      details: [
-        "The Salesforce Certified Platform Developer I credential is intended for individuals who have knowledge, skills, and experience building custom applications on the Lightning Platform"
-         ],
+      title: "Advanced Learning Algorithms",
+      details: "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera.",
+      image: "ala.PNG"
     },
+    // Add more certification objects as needed
   ]
 };
 

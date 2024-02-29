@@ -1,6 +1,6 @@
 import React from 'react';
 import { Jumbotron } from './migration';
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Certification = ({ certifications }) => {
   return (
@@ -10,16 +10,13 @@ const Certification = ({ certifications }) => {
           <h2 className="display-4 mb-5 text-center">
             {certifications.heading}
           </h2>
-          {certifications.data.map((certification, index) => (
-            <div key={index} className="pb-5">
-              <h4>{certification.title}</h4>
-              <p>{certification.details[0]}</p>
-            </div>
-          ))}
+          <Row>
+            {certifications.data.map((certification, index) => (
+              <CertificationCard key={index} certification={certification} />
+            ))}
+          </Row>
         </Jumbotron>
       </Container>
     </section>
   );
 }
-
-export default Certification;
