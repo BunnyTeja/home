@@ -1,6 +1,7 @@
 import React from 'react';
 import { Jumbotron } from './migration';
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
+import CertificationCard from "./CertificationCard";
 
 const Certification = ({ certifications }) => {
   return (
@@ -20,3 +21,5 @@ const Certification = ({ certifications }) => {
     </section>
   );
 }
+
+export default Certification;
