@@ -4,7 +4,7 @@ import ApiPngImage from "../editable-stuff/api-img.png";
 import dataPngImage from "../editable-stuff/data-img.png";
 import alaPngImage from "../editable-stuff/ala.PNG";
 import smlPngImage from "../editable-stuff/sml.PNG";
-import cpd1PngImage from "../editable-stuff/cpd1.png.PNG";
+import cpd1PngImage from "../editable-stuff/cpd1.png";
 
 
 // Navigation Bar SECTION
