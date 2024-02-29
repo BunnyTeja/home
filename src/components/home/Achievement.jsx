@@ -13,7 +13,10 @@ const Achievement = ({ achievements }) => {
           {achievements.data.map((achievement, index) => (
             <div key={index} className="pb-5">
               <h3>{achievement.title}</h3>
-              <p>{achievement.details[0]}</p>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
+                <img src={achievement.image} alt={achievement.title} style={{ width: '80px', height: 'auto', marginRight: '20px' }} />
+                <p>{achievement.details[0]}</p>
+              </div>
             </div>
           ))}
         </Jumbotron>

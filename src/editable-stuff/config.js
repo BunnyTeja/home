@@ -5,6 +5,7 @@ import dataPngImage from "../editable-stuff/data-img.png";
 import alaPngImage from "../editable-stuff/ala.PNG";
 import smlPngImage from "../editable-stuff/sml.PNG";
 import cpd1PngImage from "../editable-stuff/cpd1.png";
+import achPngImage from "../editable-stuff/acheivement.jpg";
 
 
 // Navigation Bar SECTION
@@ -124,12 +125,14 @@ const achievements = {
   data: [
     {
       title: "IAAI 'Innovative Application' Award",
+      image: achPngImage, // Add the imageUrl property with the path
       details: [
         "IAAI ‘Innovative Application’ Award for developing and deploying an application featured in an accepted paper at the Thirty-Sixth Annual Conference on Innovative Applications of Artificial Intelligence (IAAI/AAAI-24). Deployed Application - http://casy.cse.sc.edu/teaming/",
       ],
     },
   ]
 };
+
 
 const certifications = {
   show: true,
