@@ -5,7 +5,7 @@ const CertificationCard = ({ certification }) => {
   return (
     <Col md={6}>
       <div style={{ marginBottom: '30px' }} className="certification-card">
-        <img src={certification.image} alt={certification.title} style={{ maxWidth: '75%', height: 'auto' }} className="certification-image" />
+        <img src={certification.image} alt={certification.title} style={{ maxWidth: '80%', height: 'auto' }} className="certification-image" />
         <div className="certification-details">
           <h4>{certification.title}</h4>
           <p>{certification.details}</p>
