@@ -2,6 +2,8 @@ import UltraPngImage from "../editable-stuff/ultra-img.png";
 import mapperPngImage from "../editable-stuff/mapper-img.png";
 import ApiPngImage from "../editable-stuff/api-img.png";
 import dataPngImage from "../editable-stuff/data-img.png";
+import alaPngImage from "../editable-stuff/ala.PNG";
+import smlPngImage from "../editable-stuff/sml.PNG";
 
 
 // Navigation Bar SECTION
@@ -135,13 +137,13 @@ const certifications = {
     {
       title: "Supervised Machine Learning: Regression and Classification",
       details: "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera.",
-      image: "sml.PNG"
+      image: smlPngImage
     },
 
     {
       title: "Advanced Learning Algorithms",
       details: "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera.",
-      image: "ala.PNG"
+      image: alaPngImage
     },
     // Add more certification objects as needed
   ]
