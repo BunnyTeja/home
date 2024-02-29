@@ -4,6 +4,7 @@ import ApiPngImage from "../editable-stuff/api-img.png";
 import dataPngImage from "../editable-stuff/data-img.png";
 import alaPngImage from "../editable-stuff/ala.PNG";
 import smlPngImage from "../editable-stuff/sml.PNG";
+import cpd1PngImage from "../editable-stuff/cpd1.png.PNG";
 
 
 // Navigation Bar SECTION
@@ -139,11 +140,15 @@ const certifications = {
       details: "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera.",
       image: smlPngImage
     },
-
     {
       title: "Advanced Learning Algorithms",
       details: "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera.",
       image: alaPngImage
+    },
+    {
+      title: "Salesforce Certified Platform Developer I",
+      // details: "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera.",
+      image: cpd1PngImage
     },
     // Add more certification objects as needed
   ]
