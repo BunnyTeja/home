@@ -229,11 +229,18 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
+
+    {
+      div: "ViSER",
+      role: 'Director of Product Development and Engineering',// Here Add Company Name
+      companylogo: require('../assets/img/logo_viser.png'),
+      date: 'Mar 2024 – Present',
+    },
     {
       div: "Artificial Intelligence Institute at University of South Carolina",
       role: 'Research Assistant',// Here Add Company Name
       companylogo: require('../assets/img/aiisc_logo.png'),
-      date: 'Jan 2021 – Jun 2023',
+      date: 'Aug 2021 – May 2023',
     },
     {
       div: "Accenture, Client - Google ",
