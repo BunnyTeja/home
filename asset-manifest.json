@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/home/static/css/main.fe927caf.css",
-    "main.js": "/home/static/js/main.dc6dae88.js",
+    "main.js": "/home/static/js/main.1f5041a6.js",
     "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
     "static/media/sml.PNG": "/home/static/media/sml.a2f4192a7a121a556800.PNG",
     "static/media/ala.PNG": "/home/static/media/ala.c62ac477decb2fee8fdd.PNG",
@@ -14,14 +14,15 @@
     "static/media/api-img.png": "/home/static/media/api-img.cefb144b66adc51d0040.png",
     "static/media/mapper-img.png": "/home/static/media/mapper-img.861975ef29704305cce3.png",
     "static/media/ultra-img.png": "/home/static/media/ultra-img.a23e3ce7997f1f47b06d.png",
+    "static/media/logo_viser.png": "/home/static/media/logo_viser.359622482c87bab6fca2.png",
     "static/media/aiisc_logo.png": "/home/static/media/aiisc_logo.30c9171f1f1f3d906f62.png",
     "index.html": "/home/index.html",
     "main.fe927caf.css.map": "/home/static/css/main.fe927caf.css.map",
-    "main.dc6dae88.js.map": "/home/static/js/main.dc6dae88.js.map",
+    "main.1f5041a6.js.map": "/home/static/js/main.1f5041a6.js.map",
     "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.dc6dae88.js"
+    "static/js/main.1f5041a6.js"
   ]
 }
