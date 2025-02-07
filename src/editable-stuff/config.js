@@ -139,12 +139,12 @@ const certifications = {
   heading: "Certifications",
   data: [
     {
-      title: "Supervised Machine Learning: Regression and Classification",
+      title: "Machine Learning",
       // details: "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera.",
       image: smlPngImage
     },
     {
-      title: "Advanced Learning Algorithms",
+      title: "Neural Networks and Deep Learning",
       // details: "An online non-credit course authorized by DeepLearning.AI and Stanford University and offered through Coursera.",
       image: alaPngImage
     },
