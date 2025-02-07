@@ -234,7 +234,7 @@ const experiences = {
       div: "ViSER",
       role: 'Director of Product Development and Engineering',// Here Add Company Name
       companylogo: require('../assets/img/logo_viser.png'),
-      date: 'Mar 2024 – Present',
+      date: 'Mar 2024 – July 2024',
     },
     {
       div: "Artificial Intelligence Institute at University of South Carolina",
